@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+   background-image: url("E:\3D Objects\portfolio\public\header.jpg");
+   repeat
+}

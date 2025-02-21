@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font: sans;
+}
+
+.navbarAnimation{
+    animation:slideIn 0.7s linear forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity:1;
+    }
+}
+
+.firstHeadingAnim{
+    animation:rigntIn 
+}

@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font: sans;
+}
+
+.navbarAnimation{
+    animation:slideIn 1.5s linear forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity:1;
+    }
+}
+
+.firstHeadingAnim{
+    animation:rightIn 1s linear forwards;
+}
+
+@keyframes rightIn{
+    0% {
+        transform: translateX(150px);
+        opacity:0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+
+.secondHeadingAnim{
+    animation:leftIn 1s linear forwards;
+}
+
+@keyframes leftIn{
+    0% {
+        transform: translateX(-150px);
+        opacity:0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+
+.paraAnim, .btnAnim{
+    animation: showText 1.5s linear forwards;
+}
+
+.paraAnim{
+    animation-delay: s;
+}
+
+.btnAnim{
+    animation-delay: 2.5s;
+}
+
+@keyframes showText{
+    0%{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    50%{
+        opacity:0;
+    }
+    75%{
+        opacity:0.5;
+    }
+    85%{
+        opacity:0.7;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
