@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font: sans;
+    background-color:#0f1219;
+}
+
+.navbarAnimation{
+    animation:slideIn 1.5s linear forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+        scale:0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity:1;
+        scale:1;
+    }
+}
+
+.firstHeadingAnim{
+    animation:rightIn 1s linear forwards;
+}
+
+@keyframes rightIn{
+    0% {
+        transform: translateX(150px);
+        opacity:0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+
+.secondHeadingAnim{
+    animation:leftIn 1s linear forwards;
+}
+
+@keyframes leftIn{
+    0% {
+        transform: translateX(-150px);
+        opacity:0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+
+.paraAnim, .btnAnim{
+    animation: showText 1.5s linear forwards;
+}
+
+.paraAnim{
+    animation-delay: 0.5s;
+}
+
+.btnAnim{
+    animation-delay: 1s;
+}
+
+@keyframes showText{
+    0%{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    50%{
+        opacity:0;
+    }
+    75%{
+        opacity:0.5;
+    }
+    85%{
+        opacity:0.7;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.aboutImg{
+    scale: .5;
+    opacity: 0;
+    animation:fadeIn linear forwards;
+    animation-timeline: view();
+    animation-range: entry 200px;
+}
+
+@keyframes fadeIn{
+    to{
+        scale:1;
+        opacity:1;
+    }
+}
+
+.aboutBtn1, .aboutBtn2{
+    scale:.5;
+    opacity:0;
+    transform: translateX(-30px);
+}
