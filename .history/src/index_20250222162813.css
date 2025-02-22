@@ -121,25 +121,12 @@ body{
 }
 
 .expL{
-    animation:moveLine 5s linear forwards;
+    scale: 0;
+    opacity: 0;
+    animation: linear forwards;
     animation-timeline: view();
-    animation-range:entry -10px;
+    animation-range:entry 10px;
     transform-origin:left;
-}
-
-@keyframes moveLine{
-    0%{
-       scale:0;
-       opacity:0; 
-    }
-    50%{
-        scale:.3;
-        opacity:.2;
-    }
-    100%{
-        scale: 1;
-        opacity:1;
-    }
 }
 
 .aboutBtn1, .aboutBtn2{
@@ -150,6 +137,11 @@ body{
     animation-delay: 1s;
     scale: .2;
     opacity: 0;
+}
+
+
+.aboutUnder{
+    animation-duration: 4s;
 }
 
 @media (max-width:599px)  {

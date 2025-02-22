@@ -111,7 +111,7 @@ body{
     }
 }
 
-.aboutBtn1, .aboutBtn2,  .aboutUnder, .aboutPara, .expH1, .expH2, .expU, .exp{
+.aboutBtn1, .aboutBtn2,  .aboutUnder, .aboutPara, .expH1, .expH2, .expU, .exp, .expL{
     scale: 0;
     opacity: 0;
     animation:btnIn linear forwards;
@@ -120,27 +120,6 @@ body{
     transform-origin:left;
 }
 
-.expL{
-    animation:moveLine 5s linear forwards;
-    animation-timeline: view();
-    animation-range:entry -10px;
-    transform-origin:left;
-}
-
-@keyframes moveLine{
-    0%{
-       scale:0;
-       opacity:0; 
-    }
-    50%{
-        scale:.3;
-        opacity:.2;
-    }
-    100%{
-        scale: 1;
-        opacity:1;
-    }
-}
 
 .aboutBtn1, .aboutBtn2{
     animation-delay: 3s;
@@ -150,6 +129,11 @@ body{
     animation-delay: 1s;
     scale: .2;
     opacity: 0;
+}
+
+
+.aboutUnder{
+    animation-duration: 4s;
 }
 
 @media (max-width:599px)  {

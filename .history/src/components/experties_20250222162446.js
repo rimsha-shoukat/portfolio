@@ -16,16 +16,16 @@ function Experties() {
                     <h2 className="text-[#fc6c2f] text-[1.5rem] select-none">HTML5</h2>
                     <h2 className="text-[#eee2ca] text-[1.8rem] font-bold select-none">90%</h2>
                 </div>
-                <div className="expL w-[100%] h-[0.23rem] bg-[#eee2ca] rounded-full">
+                <div className="ew-[100%] h-[0.23rem] bg-[#eee2ca] rounded-full">
                     <div className="h-[0.25rem] w-[90%] bg-[#fc6c2f] rounded-[3rem]"></div>
                 </div>
             </div>
             <div className="flex flex-col gap-[1rem] justify-start items-start w-[100%] h-auto">
-                <div className="exp w-[100%] flex flex-row items-center justify-between">
+                <div className="w-[100%] flex flex-row items-center justify-between">
                     <h2 className="text-[#fc6c2f] text-[1.5rem] select-none">CSS</h2>
                     <h2 className="text-[#eee2ca] text-[1.8rem] font-bold select-none">85%</h2>
                 </div>
-                <div className="expL w-[100%] h-[0.23rem] bg-[#eee2ca] rounded-full">
+                <div className="w-[100%] h-[0.23rem] bg-[#eee2ca] rounded-full">
                     <div className="h-[0.25rem] w-[85%] bg-[#fc6c2f] rounded-[3rem]"></div>
                 </div>
             </div>
