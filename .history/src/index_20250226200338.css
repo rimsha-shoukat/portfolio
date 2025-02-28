@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font: sans;
+    background-color:#0f1219;
+}
+
+.navbarAnimation{
+    animation:slideIn 1.5s linear forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+        scale:0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity:1;
+        scale:1;
+    }
+}
+
+.firstHeadingAnim{
+    animation:rightIn 1s linear forwards;
+}
+
+@keyframes rightIn{
+    0% {
+        transform: translateX(150px);
+        opacity:0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+
+.secondHeadingAnim{
+    animation-duration: 1s;
+}
+
+.secondHeadingAnim, .aboutH1, .aboutH2, .aboutBtn1, .aboutBtn2,  .aboutUnder, .aboutPara{
+    transform: translateX(-150px);
+    opacity:0;
+    animation:leftIn 1s linear forwards;
+}
+
+.aboutH1, .aboutH2{
+    opacity:0;
+    animation-timeline: view();
+    animation-range:40px 250px;
+}
+
+.aboutBtn1, .aboutBtn2{
+    scale:0;
+    opacity:0;
+    animation-timeline: view();
+    animation-range:40px 110px;
+}
+
+.aboutBtn1{
+    transform: translateX(-150px);
+}
+
+.aboutBtn2{
+    transform: translateX(-250px);
+}
+
+.aboutUnder{
+    opacity:0;
+    scale:0;
+    transform: translateX(-150px);
+    animation-timeline: view();
+    animation-range:40px 180px;
+}
+
+@keyframes leftIn{
+    to {
+        transform: translateX(0);
+        opacity:1;
+        scale:1;
+    }
+}
+
+.paraAnim, .btnAnim{
+    animation:showText linear forwards;
+}
+
+@keyframes showText{
+    0%{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    50%{
+        opacity:0;
+    }
+    75%{
+        opacity:0.5;
+    }
+    85%{
+        opacity:0.7;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.aboutImg{
+    scale: .2;
+    opacity: .2;
+    animation:fadeIn linear forwards;
+    animation-timeline: view();
+    animation-range:40px 350px;
+}
+
+@keyframes fadeIn{
+    to{
+        scale:1;
+        opacity:1;
+    }
+}
+
+ .expH1, .expH2, .expU, .exp{
+    scale: 0;
+    opacity: 0;
+    animation:btnIn linear forwards;
+    animation-timeline: view();
+    animation-range:0px 200px;
+    transform-origin:left;
+}
+
+.expL{
+    animation:moveLine linear forwards;
+    animation-timeline: view();
+    animation-range:40px 250px;
+    transform-origin:left;
+}
+
+@keyframes moveLine{
+    0%{
+       scale:0;
+       opacity:0; 
+    }
+    50%{
+        scale:.3;
+        opacity:.2;
+    }
+    100%{
+        scale: 1;
+        opacity:1;
+    }
+}
+
+.aboutPara{
+    scale: .2;
+    opacity: 0;
+}
+
+@media (max-width:599px)  {
+    .aboutBtn1, .aboutBtn2{
+        transform-origin: center;
+    }
+}
+
+@keyframes btnIn{
+   to{
+        scale:1;
+        opacity:1;
+    }
+}
