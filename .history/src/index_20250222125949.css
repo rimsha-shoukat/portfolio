@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font: sans;
+    background-color:#0f1219;
+}
+
+.navbarAnimation{
+    animation:slideIn 1.5s linear forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+        scale:0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity:1;
+        scale:1;
+    }
+}
+
+.firstHeadingAnim{
+    animation:rightIn 1s linear forwards;
+}
+
+@keyframes rightIn{
+    0% {
+        transform: translateX(150px);
+        opacity:0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+
+.secondHeadingAnim{
+    animation:leftIn 1s linear forwards;
+}
+
+@keyframes leftIn{
+    0% {
+        transform: translateX(-150px);
+        opacity:0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+
+.paraAnim, .btnAnim{
+    animation: showText 1.5s linear forwards;
+}
+
+.paraAnim{
+    animation-delay: 0.5s;
+}
+
+.btnAnim{
+    animation-delay: 1s;
+}
+
+@keyframes showText{
+    0%{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    50%{
+        opacity:0;
+    }
+    75%{
+        opacity:0.5;
+    }
+    85%{
+        opacity:0.7;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.aboutImg{
+    scale: .2;
+    opacity: .2;
+    animation:fadeIn linear forwards;
+    animation-timeline: view();
+    animation-range:entry 10px;
+}
+
+@keyframes fadeIn{
+    to{
+        scale:1;
+        opacity:1;
+    }
+}
+
+.aboutUnder{
+   from{
+    width: 0;
+   } 
+   t
+}
+
+.aboutBtn1, .aboutBtn2,  .aboutUnder, .aboutPara{
+    scale: 0;
+    opacity: 0;
+    animation:btnIn ease-out forwards;
+    animation-timeline: scroll(y);
+    transform-origin:left;
+}
+
+.aboutBtn1, .aboutBtn2{
+    animation-delay: 3s;
+}
+
+.aboutPara{
+    animation-delay: 1s;
+    scale: .2;
+    opacity: 0;
+}
+
+
+.aboutUnder{
+    animation-delay:3s;
+}
+
+@media (max-width:369px)  {
+    .aboutBtn1, .aboutBtn2{
+        transform-origin: center;
+    }
+}
+
+@keyframes btnIn{
+   to{
+        scale:1;
+        opacity:1;
+    }
+}

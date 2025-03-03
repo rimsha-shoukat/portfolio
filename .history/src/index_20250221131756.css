@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font: sans;
+}
+
+.navbarAnimation{
+    animation:slideIn 0.5s linear forward
+}

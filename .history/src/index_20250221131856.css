@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font: sans;
+}
+
+.navbarAnimation{
+    animation:slideIn 0.5s linear forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translatey(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

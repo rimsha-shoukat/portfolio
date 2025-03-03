@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font: sans;
+    background-color:#0f1219;
+}
+
+.navbarAnimation{
+    animation:slideIn 1.5s linear forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+        scale:0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity:1;
+        scale:1;
+    }
+}
+
+.firstHeadingAnim{
+    animation:rightIn 1s linear forwards;
+}
+
+@keyframes rightIn{
+    0% {
+        transform: translateX(150px);
+        opacity:0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+
+.secondHeadingAnim{
+    animation-duration: 1s;
+}
+
+.secondHeadingAnim, .aboutH1, .aboutH2, .aboutBtn1, .aboutBtn2, .aboutUnder, .aboutPara, .aboutPara1{
+    opacity:0;
+    animation:leftIn 1s linear forwards;
+}
+
+.secondHeadingAnim, .aboutH1, .aboutH2{
+    transform: translateX(-150px);
+}
+
+.aboutH1, .aboutH2{
+    opacity:0;
+    animation-timeline: view();
+    animation-range:40px 250px;
+}
+
+.aboutPara, .aboutPara1{
+    scale:0;
+    transform-origin:left;
+    opacity:0;
+    animation-timeline: view();
+}
+
+.aboutPara{
+    animation-range:20px 150px;
+}
+
+.aboutPara1{
+    animation-range: 30px 250px;
+}
+
+.aboutBtn1, .aboutBtn2{
+    opacity:0;
+    animation-timeline: view();
+    animation-range:30px 120px;
+}
+
+.aboutBtn1{
+    transform: translateX(-150px);
+}
+
+.aboutBtn2{
+    transform: translateX(-250px);
+}
+
+.aboutUnder{
+    opacity:0;
+    scale:0;
+    transform: translateX(-150px);
+    animation-timeline: view();
+    animation-range:40px 180px;
+}
+
+@keyframes leftIn{
+    to {
+        transform: translateX(0);
+        opacity:1;
+        scale:1;
+    }
+}
+
+.paraAnim, .btnAnim{
+    animation:showText 2s linear forwards;
+}
+
+.paraAnim{
+    animation-delay: 0.5s;
+}
+
+.btnAnim{
+    animation-delay:1s;
+}
+
+@keyframes showText{
+    0%{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    50%{
+        opacity:0;
+    }
+    75%{
+        opacity:0.3;
+    }
+    85%{
+        opacity:0.7;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.aboutImg{
+    scale: .2;
+    opacity: .2;
+    animation:fadeIn linear forwards;
+    animation-timeline: view();
+    animation-range:40px 350px;
+}
+
+@keyframes fadeIn{
+    to{
+        scale:1;
+        opacity:1;
+    }
+}
+
+.aboutImg:hover{
+    filter: drop-shadow(0 0 0.75rem #fc6c2f);
+}
+
+.proj{
+    filter: drop-shadow(18px 10px 4px #060606);
+}
+
+.proj1{
+    transform: -translateX(200px);
+    scale:0;
+    opacity:0
+}
+
+@keyframes proj1In{
+    to {
+        transform: translateX(0);
+        opacity:1;
+        scale:1;
+    }
+}
