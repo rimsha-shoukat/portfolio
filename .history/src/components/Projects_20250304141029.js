@@ -15,7 +15,7 @@ function Projects() {
           <h1 className="aboutH2 text-[3.2rem] text-white font-bold select-none">Projects</h1>
           <div className="aboutUnder w-[4rem] h-[0.30rem] bg-[#fc6c2f] rounded-[5rem] select-none"></div>
         </div>
-        <div className='flex flex-row items-center justify-center max-lg:flex-col w-[100%] h-auto max-xs:gap-[1rem] max-lg:gap-[2rem] gap-[4rem] font-sans text-white'>
+        <div className='flex flex-row items-center justify-center max-lg:flex-col w-[100%] h-auto max-xs:gap-[1rem] max-lg:gap-[2rem] gap-[4rem] font-sans text-[#f9e8c7]'>
               <div className='select-none max-lg:w-[100%] w-[26%] rounded-xl'>
               <a href="https://rkcodex.github.io/coffeeApp/" target="_blank" rel="noopener noreferrer">
                   <img className="proj select-none max-lg:block hidden w-[100%] h-[100%]" src="image/coffee.png" alt="coffeeApp" />
@@ -51,7 +51,7 @@ function Projects() {
               </div>
               </div>
         </div>
-        <div className='flex flex-row-reverse items-center justify-center max-lg:flex-col w-[100%] h-auto max-xs:gap-[1rem] max-lg:gap-[2rem] gap-[4rem] font-sans text-white'>
+        <div className='flex flex-row-reverse items-center justify-center max-lg:flex-col w-[100%] h-auto max-xs:gap-[1rem] max-lg:gap-[2rem] gap-[4rem] font-sans text-[#f9e8c7]'>
               <div className='select-none max-lg:w-[100%] w-[26%] rounded-xl'>
                 <a href="https://rkcodex.github.io/demoWeb_carGallery/" target="_blank" rel="noopener noreferrer"> 
                 <img className="proj select-none max-lg:block hidden w-[100%] h-[100%]" src="image/car.png" alt="car gallery" />
@@ -87,13 +87,13 @@ function Projects() {
               </div>
               </div>
         </div>
-        <div className='flex flex-row items-center justify-center max-lg:flex-col w-[100%] h-auto max-xs:gap-[1rem] max-lg:gap-[2rem] gap-[4rem] font-sans text-white'>
+        <div className='flex flex-row items-center justify-center max-lg:flex-col w-[100%] h-auto max-xs:gap-[1rem] max-lg:gap-[2rem] gap-[4rem] font-sans text-[#f9e8c7]'>
               <div className='select-none max-lg:w-[100%] w-[26%] rounded-xl'>
               <a href="https://rkcodex.github.io/demoWeb/Tailwind/web/web.html" target="_blank" rel="noopener noreferrer">
-                  <img className="proj select-none max-lg:block hidden w-[100%] h-[100%]" src="image/web.png" alt="data analysis" />
+                  <img className="proj select-none max-lg:block hidden w-[100%] h-[100%]" src="image/web.png" alt="" />
               </a>
               <a href="https://rkcodex.github.io/demoWeb/Tailwind/web/web.html" target="_blank" rel="noopener noreferrer">
-                  <img className="proj select-none max-lg:hidden block w-[100%] h-[100%]" src="image/web1.png" alt="data analysis" />
+                  <img className="proj select-none max-lg:hidden block w-[100%] h-[100%]" src="image/web1.png" alt="coffeeApp" />
               </a>
               </div>
               <div className="aboutH1 flex flex-col justify-center items-start max-lg:w-[100%] w-[45%] gap-[2rem] max-xs:gap-[1rem]">

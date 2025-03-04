@@ -11,12 +11,12 @@ function About(){
                 <h1 className="aboutH2 text-[3.2rem] max-sm:text-[2.8rem] text-white font-bold select-none">About Me</h1>
                 <div className="aboutUnder w-[4rem] h-[0.30rem] bg-[#fc6c2f] rounded-[5rem] select-none"></div>
                 <p className="aboutPara1 text-[0.9rem] select-none text-justify leading-snug text-white my-[2rem]">Aspiring Front-End Developer and university student in my 6th semester, skilled in JavaScript, React.js, Tailwind CSS, HTML, and CSS. I am passionate about building responsive and user-friendly web applications. Proficient in Git for version control and effective in collaborative environments. Eager to contribute my skills and creativity to a dynamic organization while advancing my knowledge in web development.</p>
-                <div className="flex flex-row gap-[1rem] w-[100%] max-xs:flex-col">
+                <div className="flex flex-row gap-[1rem] w-[100%] max-md:flex-col">
                  <Link to="#contact">
-                    <button className="aboutBtn1 max-xs:w-[100%] transition-all duration-700 hover:shadow-md hover:shadow-[#fc6c2f] border-2 rounded-full max-xs:px-0 px-[1rem] py-[0.5rem] border-[#eee2ca] text-[#fc6c2f] font-bold select-none ">Contact Me</button>
+                    <button className="aboutBtn1 transition-all duration-700 hover:shadow-md hover:shadow-[#fc6c2f] border-2 rounded-full max px-[1rem] py-[0.5rem] border-[#eee2ca] text-[#fc6c2f] font-bold select-none ">Contact Me</button>
                  </Link>
                  <a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1A1E5V3aoXNESWBN3STscijUr3fmBb4d6/view?usp=drivesdk">
-                    <button className="aboutBtn2 max-xs:w-[100%] transition-all duration-700 hover:shadow-md hover:shadow-[#eee2ca] border-2 rounded-full max-xs:px-0 px-[1rem] py-[0.5rem] text-[#20232a] border-[#fc6c2f] bg-[#fc6c2f] font-bold select-none">View Resume</button>
+                    <button className="aboutBtn2 transition-all duration-700 hover:shadow-md hover:shadow-[#eee2ca] border-2 rounded-full max-xs:px-0 px-[1rem] py-[0.5rem] text-[#20232a] border-[#fc6c2f] bg-[#fc6c2f] font-bold select-none">View Resume</button>
                  </a>
                 </div>
             </div>

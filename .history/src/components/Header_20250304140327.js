@@ -17,33 +17,33 @@ function Header(){
                 <div className="navbarAnimation flex flex-row max-xs:gap-0 gap-[1rem] items-center justify-center w-auto h-auto px-[0.5rem] py-[0.5rem] border-2 bg-[#20232a] border-[#0f1219] rounded-full shadow-md shadow-[#0f1219]/50">
                   <div className="w-auto h-auto border-r-2 border-[#0f1219] place-content-center">
                    <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=rimshashoukat271@gmail.com" target="_blank" rel="noopener noreferrer">
-                     <MdEmail className="text-white text-3xl mx-[0.5rem] cursor-pointer" />
+                     <MdEmail className="text-[#eee2ca] text-3xl mx-[0.5rem] cursor-pointer" />
                    </a>
                   </div>
                   <div className="h-auto w-auto place-content-center"> 
                     <a href="https://github.com/rkCodeX" target="_blank" rel="noopener noreferrer">
-                      <FaGithub className="text-white text-2xl mx-[0.5rem] cursor-pointer" />
+                      <FaGithub className="text-[#eee2ca] text-2xl mx-[0.5rem] cursor-pointer" />
                     </a> 
                   </div>
                   <div className="h-auto w-auto place-content-center">
                     <a href="https://www.linkedin.com/in/rimsha-shoukat-khan-353652348?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
-                      <FaLinkedin className="text-white text-2xl mx-[0.5rem] cursor-pointer" />
+                      <FaLinkedin className="text-[#eee2ca] text-2xl mx-[0.5rem] cursor-pointer" />
                     </a>
                   </div>
                   <div className="h-auto w-auto place-content-center">
                     <a href="https://www.instagram.com/_rksha1?igsh=N2JhM3cyOTY1d3Nz" target="_blank" rel="noopener noreferrer">
-                     <RiInstagramFill className="text-white text-2xl mx-[0.5rem] cursor-pointer" />
+                     <RiInstagramFill className="text-[#eee2ca] text-2xl mx-[0.5rem] cursor-pointer" />
                     </a>
                   </div>
                   <div className="h-auto w-auto place-content-center border-l-2 border-[#0f1219]">
                     <a href="https://drive.google.com/file/d/1A1E5V3aoXNESWBN3STscijUr3fmBb4d6/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
-                     < GrResume className="text-white text-2xl mx-[0.5rem] cursor-pointer" />
+                     < GrResume className="text-[#eee2ca] text-2xl mx-[0.5rem] cursor-pointer" />
                     </a>
                   </div>
                 </div>
               </div>
               <div className="flex items-center justify-center w-[100%] h-[80%]">
-                <div className="flex flex-col text-white items-center justify-center h-auto max-md:w-[100%] w-[70%]">
+                <div className="flex flex-col text-[#eee2ca] items-center justify-center h-auto max-md:w-[100%] w-[70%]">
                   <h1 className="firstHeadingAnim max-xs:text-[1.5rem] text-[4.5rem] max-lg:text-[4rem] max-md:text-[3.5rem] max-sm:text-[2.65rem] text-nowrap cursor-default font-bold leading-none select-none">Hello, I am <b className="text-[#fc6c2f]"> Rimsha </b> </h1>
                   <h1 className="secondHeadingAnim text-[4.5rem] max-md:text-[3.5rem] max-lg:text-[4rem] max-sm:text-[2.65rem] max-xs:text-[1.5rem] text-nowrap cursor-default font-bold select-none">A Frontend Developer.</h1>
                   <p className="paraAnim opacity-0 cursor-default text-center max-xs:text-[0.5rem] text-[1rem] place-content-center max-xs:w-[98%] w-[94%] select-none">I craft sleek, responsive websites that seamlessly integrate intuitive design with advanced functionality, prioritizing user end experience and business objectives.</p>
