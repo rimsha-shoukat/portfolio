@@ -31,7 +31,7 @@ function Header(){
                     </a>
                   </div>
                   <div className="h-auto w-auto place-content-center">
-                    <a href="https://t.me/rk_Codex" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/_rksha1?igsh=N2JhM3cyOTY1d3" target="_blank" rel="noopener noreferrer">
                      <FaTelegram className="text-white text-2xl mx-[0.5rem] cursor-pointer" />
                     </a>
                   </div>
