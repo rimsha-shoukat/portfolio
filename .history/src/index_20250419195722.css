@@ -5,7 +5,7 @@
 body{
     font: sans;
     background-color:#0f1219;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .navbarAnimation{
