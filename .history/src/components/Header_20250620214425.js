@@ -10,7 +10,7 @@ import { HashLink as Link } from "react-router-hash-link";
 function Header(){
     return(
       <>
-        <div className="h-screen w-auto bg-cover bg-no-repeat bg-header">
+        <div className="h-screen w bg-cover bg-no-repeat bg-header">
           <div className='w-[100%] h-[100%] bg-cover bg-[#171a21]/90'>
             <div className="flex flex-col items-center justify-center w-[100%] h-[100%]">
               <div className="w-[100%] h-[20%] flex items-center justify-center">

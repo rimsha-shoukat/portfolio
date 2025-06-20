@@ -5,12 +5,11 @@
 body {
     font: sans;
     background-color:#0f1219;
-    overflow-x: hidden;
     width: 100%;
-    height: auto;
+    overflow-x: hidden;
 }
 
-.navbarAnimation{
+.navbarAnimation {
     animation:slideIn 1.5s linear forwards;
 }
 

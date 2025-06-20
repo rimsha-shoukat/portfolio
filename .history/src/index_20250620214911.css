@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+body{
     font: sans;
     background-color:#0f1219;
     overflow-x: hidden;
     width: 100%;
-    height: auto;
+    heighy
 }
 
 .navbarAnimation{
