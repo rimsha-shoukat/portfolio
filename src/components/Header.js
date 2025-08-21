@@ -36,7 +36,7 @@ function Header(){
                     </a>
                   </div>
                   <div className="h-auto w-auto place-content-center border-l-2 border-[#0f1219]">
-                    <a href="https://drive.google.com/file/d/1p1g2cOeon3lP6d9Iz_BTnONO6UbKltrw/view?usp=drivesdk" target="_blank" rel="noopem/file/d/1A1E5V3aoXNESWBN3STscijUr3fmBb4d6/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1p1g2cOeon3lP6d9Iz_BTnONO6UbKltrw/view?usp=drivesdk" target="_blank" rel="noopen/file/d/1p1g2cOeon3lP6d9Iz_BTnONO6UbKltrw/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
                      < GrResume className="text-white text-2xl mx-[0.5rem] cursor-pointer" />
                     </a>
                   </div>
