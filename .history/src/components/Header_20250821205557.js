@@ -16,12 +16,12 @@ function Header(){
               <div className="w-[100%] h-[20%] flex items-center justify-center">
                 <div className="navbarAnimation flex flex-row max-xs:gap-0 gap-[1rem] items-center justify-center w-auto h-auto px-[0.5rem] py-[0.5rem] border-2 bg-[#20232a] border-[#0f1219] rounded-full shadow-md shadow-[#0f1219]/50">
                   <div className="w-auto h-auto border-r-2 border-[#0f1219] place-content-center">
-                   <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=rimsha.devs@gmail.com" target="_blank" rel="noopener noreferrer">
+                   <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=rimsha.@gmail.com" target="_blank" rel="noopener noreferrer">
                      <MdEmail className="text-white text-3xl mx-[0.5rem] cursor-pointer" />
                    </a>
                   </div>
                   <div className="h-auto w-auto place-content-center"> 
-                    <a href="https://github.com/rimsha-shoukat" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/rkCodeX" target="_blank" rel="noopener noreferrer">
                       <FaGithub className="text-white text-2xl mx-[0.5rem] cursor-pointer" />
                     </a> 
                   </div>

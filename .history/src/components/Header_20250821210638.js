@@ -21,7 +21,7 @@ function Header(){
                    </a>
                   </div>
                   <div className="h-auto w-auto place-content-center"> 
-                    <a href="https://github.com/rimsha-shoukat" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/rkCo" target="_blank" rel="noopener noreferrer">
                       <FaGithub className="text-white text-2xl mx-[0.5rem] cursor-pointer" />
                     </a> 
                   </div>
