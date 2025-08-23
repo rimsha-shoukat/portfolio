@@ -1,5 +1,6 @@
 import React from 'react';
 import { MdEmail } from "react-icons/md";
+import { FaTelegram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { GrResume } from "react-icons/gr";
@@ -27,6 +28,11 @@ function Header(){
                   <div className="h-auto w-auto place-content-center">
                     <a href="https://www.linkedin.com/in/rimsha-shoukat" target="_blank" rel="noopener noreferrer">
                       <FaLinkedin className="text-white text-2xl mx-[0.5rem] cursor-pointer" />
+                    </a>
+                  </div>
+                  <div className="h-auto w-auto place-content-center">
+                    <a href="https://t.me/rimsha-shoukat" target="_blank" rel="noopener noreferrer">
+                     <FaTelegram className="text-white text-2xl mx-[0.5rem] cursor-pointer" />
                     </a>
                   </div>
                   <div className="h-auto w-auto place-content-center border-l-2 border-[#0f1219]">

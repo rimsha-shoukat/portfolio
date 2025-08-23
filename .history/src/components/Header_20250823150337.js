@@ -1,7 +1,7 @@
 import React from 'react';
 import { MdEmail } from "react-icons/md";
+import { FaTelegram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
 import { GrResume } from "react-icons/gr";
 import { FaArrowRight } from "react-icons/fa6";
 import { HashLink as Link } from "react-router-hash-link"; 

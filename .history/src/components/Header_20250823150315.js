@@ -1,5 +1,6 @@
 import React from 'react';
 import { MdEmail } from "react-icons/md";
+import { FaTelegram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { GrResume } from "react-icons/gr";
