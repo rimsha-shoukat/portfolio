@@ -15,46 +15,6 @@ function Projects() {
           <h1 className="aboutH2 text-[3.2rem] text-white font-bold select-none">Projects</h1>
           <div className="aboutUnder w-[4rem] h-[0.30rem] bg-[#fc6c2f] rounded-[5rem] select-none"></div>
         </div>
-
-        <div className='flex flex-row items-center justify-center max-lg:flex-col w-[100%] h-auto max-xs:gap-[1rem] max-lg:gap-[2rem] gap-[4rem] font-sans text-white'>
-              <div className='select-none max-lg:w-[100%] w-[26%] rounded-xl'>
-              <a href="https://rimsha-shoukat.github.io/shoppey-E-commerce-app/" target="_blank" rel="noopener noreferrer">
-                  <img className="proj select-none max-lg:block hidden w-[100%] h-[100%]" src="image/coffee.png" alt="data analysis" />
-              </a>
-              <a href="https://rimsha-shoukat.github.io/shoppey-E-commerce-app/" target="_blank" rel="noopener noreferrer">
-                  <img className="proj select-none max-lg:hidden block w-[100%] h-[100%]" src="image/coffee1.png" alt="data analysis" />
-              </a>
-              </div>
-              <div className="aboutH1 flex flex-col justify-center items-start max-lg:w-[100%] w-[45%] gap-[2rem] max-xs:gap-[1rem]">
-              <div className="select-none w-[100%] flex flex-row items-center justify-between">
-              <h2 className="max-xs:text-[1.2rem] text-[2rem] text-[#fc6c2f] text-nowrap">Shoppey</h2>
-                  <div className="flex flex-row gap-[0.65rem]">
-                  <a href="https://rimsha-shoukat.github.io/shoppey-E-commerce-app/" target="_blank" rel="noopener noreferrer">
-                  <button className="border-2 border-[#eee2ca] rounded-xl py-[0.65rem] px-[0.65rem] hover:shadow-md hover:shadow-[#fc6c2f] group">
-                    < FaLocationArrow className="text-white max-xs:text-[0.65rem] text-[1.3rem] cursor-pointer select-none group-hover:text-[#fc6c2f]" /> 
-                  </button>
-                  </a>
-                  <a href="https://rimsha-shoukat.github.io/shoppey-E-commerce-app/" target="_blank" rel="noopener noreferrer">
-                  <button className="border-2 border-[#eee2ca] rounded-xl py-[0.65rem] px-[0.65rem] hover:shadow-md hover:shadow-[#fc6c2f] group">
-                    < FaGithub className="text-white max-xs:text-[0.65rem] text-[1.3rem] cursor-pointer select-none group-hover:text-[#fc6c2f]" /> 
-                  </button>
-                  </a>
-                  </div>
-              </div>
-              <p className='select-none max-xs:text-[0.65rem] text-[1rem] text-justify'>
-                A user-friendly online shopping site with features like product search, dynamic cart management, detailed product pages, and responsive design, all built with react.js.
-              </p>
-              <div className="flex max-xs:flex-col flex-row w-[100%] gap-[1.5rem] max-xs:gap-[1rem] max-xs:text-[0.5rem] text-[0.85rem]">
-                <a href="https://html.spec.whatwg.org/" target="_blank" rel="noopener noreferrer">
-                  <button className="hover:rotate-180 max-xs:w-[100%] transition-all shadow-md shadow-[#fc6c2f] hover:shadow-none duration-700 select-none border-2 border-[#eee2ca] max-xs:py-[0.1rem] rounded-[5rem] px-[1rem] py-[0.2rem] place-content-center"><AiOutlineHtml5 className="inline max-xs:text-[1.5rem] text-[2rem] pr-[0.65rem] text-[#fc6c2f]" />HTML5</button>
-                </a>
-                <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer">              
-                  <button className="hover:rotate-180 max-xs:w-[100%] transition-all shadow-md shadow-[#fc6c2f] hover:shadow-none duration-700 select-none border-2 border-[#eee2ca] max-xs:py-[0.1rem] rounded-[5rem] px-[1rem] py-[0.2rem] place-content-center"><RiTailwindCssFill className="inline max-xs:text-[1.5rem] text-[2rem] pr-[0.65rem] text-[#fc6c2f]" />Tailwind CSS</button>
-                </a>
-              </div>
-              </div>
-        </div>
-
         <div className='flex flex-row-reverse items-center justify-center max-lg:flex-col w-[100%] h-auto max-xs:gap-[1rem] max-lg:gap-[2rem] gap-[4rem] font-sans text-white'>
               <div className='select-none max-lg:w-[100%] w-[26%] rounded-xl'>
                 <a href="https://rimsha-shoukat.github.io/ecommerce-frontend-design/" target="_blank" rel="noopener noreferrer"> 
@@ -93,7 +53,6 @@ function Projects() {
               </div>
               </div>
         </div>
-
         <div className='flex flex-row items-center justify-center max-lg:flex-col w-[100%] h-auto max-xs:gap-[1rem] max-lg:gap-[2rem] gap-[4rem] font-sans text-white'>
               <div className='select-none max-lg:w-[100%] w-[26%] rounded-xl'>
               <a href="https://rimsha-shoukat.github.io/coffeeApp/" target="_blank" rel="noopener noreferrer">
@@ -130,7 +89,6 @@ function Projects() {
               </div>
               </div>
         </div>
-
       </div> 
     </>
   );
