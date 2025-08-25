@@ -34,7 +34,7 @@ function Projects() {
                     < FaLocationArrow className="text-white max-xs:text-[0.65rem] text-[1.3rem] cursor-pointer select-none group-hover:text-[#fc6c2f]" /> 
                   </button>
                   </a>
-                  <a href="https://github.com/rimsha-shoukat/shoppey-E-commerce-app.git" target="_blank" rel="noopener noreferrer">
+                  <a href="https://rimsha-shoukat.github.io/shoppey-E-commerce-app" target="_blank" rel="noopener noreferrer">
                   <button className="border-2 border-[#eee2ca] rounded-xl py-[0.65rem] px-[0.65rem] hover:shadow-md hover:shadow-[#fc6c2f] group">
                     < FaGithub className="text-white max-xs:text-[0.65rem] text-[1.3rem] cursor-pointer select-none group-hover:text-[#fc6c2f]" /> 
                   </button>
