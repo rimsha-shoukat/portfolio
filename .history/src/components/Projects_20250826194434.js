@@ -1,3 +1,4 @@
+import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import { FaLocationArrow } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
