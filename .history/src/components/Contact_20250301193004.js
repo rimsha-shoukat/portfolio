@@ -1,0 +1,59 @@
+import React, { useState } from 'react'
+
+function Contact() {
+  const [email, setEmail] = useState();
+  const [message, setMessage] = useState();
+  const validateEmail = (email) => {
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    return emailPattern.test(email);
+  };
+
+  function sendMessage(){
+    if(!email && !message){
+      alert("Please fill the form...")
+    }else if(!email){
+      alert('Please enter an email address');
+      return;
+    }else if(!validateEmail(email)){
+      alert('Please enter a valid email address');
+      return;
+    }else if(!message){
+      alert('Please enter a message');
+      return;
+    }else if(message && validateEmail(email)){
+      alert('Your message has been sent successfully!');
+      setEmail('');
+      setMessage('');
+    }
+  };
+
+  return (
+    <>
+      <div className="flex font-sans flex-row max-lg:flex-col-reverse max-sm:px-[2rem] px-[8rem] gap-[4rem] py-[3.5rem] bg-[#20232a] w-[100%] h-auto rounded-tr-[24rem] items-center justify-center">
+        <div className="w-[50%] max-lg:w-[100%] max-md:px-0 px-[3rem] h-auto flex flex-col gap-[2rem] items-start justify-start">
+         <div className="flex flex-col items-start justify-start gap-0">
+            <h1 className='aboutH1 text-[#fc6c2f] leading-none font-bold text-[1.5rem] select-none'>Inquiry</h1>
+            <h1 className="w-[100%] aboutH2 text-[2.5rem] max-xs:text-[2rem] select-none font-bold text-[#eee2ca]">Contact Me</h1>
+            <div className="aboutUnder w-[4rem] select-none h-[0.35rem] rounded-full bg-[#fc6c2f]"></div>
+         </div>
+         <div className="aboutH2 flex flex-col w-[100%] gap-[0.35rem]">
+          <h2 className='text-[#eee2ca] select-none'>Enter your Email</h2>
+          <input onChange={
+            e => setEmail(e.target.value)
+          } className="bg-[#0f1219] px-[1rem] py-[0.5rem] font-bold max-xs:text-[0.8rem] text-[1rem] text-[#eee2ca] rounded-full" placeholder="Email here..." type="email" />
+         </div>
+         <div className="aboutH2 flex flex-col gap-[0.35rem] w-[100%]">
+          <h2 className='text-[#eee2ca] select-none'>Enter your Message</h2>
+          <textarea onChange={
+            e => setMessage(e.target.value)
+          } rows="5" className="max-xs:text-[0.8rem] px-[1rem] py-[0.5rem] font-bold bg-[#0f1219] text-[1rem] text-[#eee2ca] rounded-xl" placeholder="Message here..." type="text" />
+         </div>
+         <button onClick={() => sendMessage()} className="bg-[#fc6c2f] w-[100%] py-[0.35rem] transition-all duration-700 hover:shadow-lg hover:shadow-[#0f1219] hover:bg-[#e76a2bf5] select-none font-bold text-[1.2rem] rounded-full text-[#0f1219]">Send</button>
+        </div>
+          <img className="aboutImg w-[40%] max-lg:w-[80%] h-auto" src="image/contact.png" alt="" />
+      </div>
+    </>
+  )
+}
+
+export default Contact;
