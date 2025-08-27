@@ -28,9 +28,7 @@ npm run start
 
 Open your browser and navigate to `http://localhost:3000` to see the portfolio in action.
 
-## Live Demo
-
-You can view the live version of my portfolio at [portfolio](https://rimsha-shoukat.github.io/portfolio/).
+## Live demo : [portfolio](https://rimsha-shoukat.github.io/portfolio/).
 
 ## Contact
 
