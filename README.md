@@ -1,6 +1,6 @@
-# My Portfolio
+# Portfolio
 
-Welcome to my portfolio! This project showcases my skills and projects as a web developer, built using React.js. 
+This is my **old portfolio**, showcasing my skills and projects as a web developer. I have since created a new, updated portfolio, but this project demonstrates my previous work and experience.
 
 ## Features
 
